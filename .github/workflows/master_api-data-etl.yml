@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'api-data-etl'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2B9F5E1EDBA24A7DB5CEC7ADA528ED28 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E0BB7EC4C8344546912A188F43B7F56E }}
           package: .

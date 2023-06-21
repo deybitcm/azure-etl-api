@@ -8,7 +8,11 @@ router.get('/', (req,res) => {
 })
 
 router.post('/', (req,res) => {
-  res.json({log: "Creando registro"})
+  const newDato = req.body
+  res.json({
+    log: "Creando registro",
+    resgistro: newDato
+  })
 })
 
 router.put('/', (req,res) => {
